@@ -1,0 +1,15 @@
+
+<html>
+  <head>
+  </head>
+  <body>
+    <h3>This is called Racoon Count 2.0</h3>
+    <img src=<%=@url%>>
+    <form action="/chicken" method="post">
+      <input type="hidden" name="answer" value=<%=@answer%>>
+      <input type="submit" name="button" value="Racoon"/>
+      <input type="submit" name="button" value="Dog"/>
+    </form>
+    <p> <%= @current_score %> </p>
+  </body>
+</html>
